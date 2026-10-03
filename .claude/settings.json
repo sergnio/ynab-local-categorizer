@@ -1,0 +1,25 @@
+{
+    "permissions": {
+        "deny": [
+            "Read(./personal-data/**)",
+            "Read(./**/*.csv)",
+            "Read(./**/*.tsv)",
+            "Read(./**/*.xlsx)",
+            "Bash(*YNAB_API_TOKEN*)",
+            "mcp__ynab"
+        ]
+    },
+    "sandbox": {
+        "enabled": true,
+        "failIfUnavailable": true,
+        "allowUnsandboxedCommands": false,
+        "filesystem": {
+            "denyRead": [
+                "./personal-data",
+                "./**/*.csv",
+                "./**/*.tsv",
+                "./**/*.xlsx"
+            ]
+        }
+    }
+}

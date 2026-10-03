@@ -1,0 +1,12 @@
+personal-data/
+
+# Safety net for stray exports outside personal-data/
+*.csv
+*.tsv
+*.xlsx
+
+.mcp.json
+.claude/settings.local.json
+.claude/.cc-writes
+.DS_Store
+.idea/
