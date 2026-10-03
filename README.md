@@ -1,5 +1,4 @@
-# ynab-local
-
+# YNAB Categorizer (local LLMs)
 Suggests categories for uncategorized YNAB transactions using your own categorization history, with local LLMs only. Your financial data never goes to a cloud model.
 
 Feel free to fork this and make it your own.
