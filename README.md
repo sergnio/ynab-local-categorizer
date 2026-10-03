@@ -13,8 +13,8 @@ There are no scripts yet: a local agent does the work by following [AGENTS.md](.
 
 ## Requirements
 
-- A local LLM runtime, e.g. [Ollama](https://ollama.com) or [LM Studio](https://lmstudio.ai)
-- An MCP-capable agent client that runs that local model (e.g. LM Studio, or [Goose](https://block.github.io/goose/) with Ollama)
+- A local LLM runtime. Recommended: [llama.cpp](https://github.com/ggml-org/llama.cpp) (`llama-server` exposes an OpenAI-compatible API). [LM Studio](https://lmstudio.ai) also works.
+- An agent harness that runs that local model. I prefer [Pi](https://github.com/badlogic/pi-mono), pointed at `llama-server`.
 - Node.js, for the YNAB MCP server
 - A YNAB account
 
